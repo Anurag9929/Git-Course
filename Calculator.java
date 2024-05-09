@@ -29,7 +29,7 @@
 public class Calculator{
     
     public static void main(String ar[]){
-        Addition a = new Addition();
+        Addition a  = new Addition();
         System.out.println("Calling by Addition Object: "+"Add method:"+a.add(12, 13));
         Subtraction s = new Subtraction();
         System.out.println("Calling By Object of Subtraction Class: "+"Add method:"+s.add(99, 1)+" ,Subtract Method:"+s.sub(98, 3));
