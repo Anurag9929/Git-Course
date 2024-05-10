@@ -78,11 +78,11 @@ for (int q = 0; q < 10; q++) {
 // CONTINUE: The continue statement breaks one iteration (in the loop), 
 //           if a specified condition occurs, and continues with the next iteration in the loop.
 
-for (int r = 0; r < 10; r++) {
-    if (r == 4) {
+for (int s = 0; s < 10; s++) {
+    if (s == 4) {
       continue;
     }
-    System.out.println(r);
+    System.out.println(s);
   }
     
 
