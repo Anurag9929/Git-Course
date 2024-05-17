@@ -5,28 +5,30 @@ final class A{
         return a+b;
     }
     // Can't change a final variable value as it becomes a constant
-    pi= 23.33;
+    // pi= 23.33;
 }
 // We can't extend a Final class that's why getting error in the below line
-class B extends A{
-    public int sub(int a,int b){
-        return b-a;
-    }
-    public final int mul(int a,int b){
-        return a*b;
-    }
-}
+// class B extends A{
+//     public int sub(int a,int b){
+//         return b-a;
+//     }
+//     public final int mul(int a,int b){
+//         return a*b;
+//     }
+// }
 // not allowed to override a final method as shown below
-class C extends B{
-    public int mul(int a,int b){    
-        return a*b;
-    }
+// class C extends B{
+//     // public int mul(int a,int b){    
+//     //     return a*b;
+//     // }
 
-}
+// }
 
 public class Final_cls_method_var{
-    public static void main(String args[])
-    A a = new A();
-    a.pi= 12.23;
+    public static void main(String args[]){
+        A a = new A();
+        // a.pi= 12.23;
+    }
+    
     
 }
