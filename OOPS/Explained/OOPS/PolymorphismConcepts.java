@@ -1,3 +1,5 @@
+// OverLoad:  Different method signature but same definition.
+// Overriding: Same signature but different definition.
 package OOPS.Explained.OOPS;
 class Polymorphism{
     public int add(int a,int b){
@@ -19,12 +21,12 @@ class Polymorphism{
     public int sub(int a,int b,int c){
         return (c-(b-a));
     }
-   //Overriding in the same class
+   //Overriding in the same class: always do in child class,otherwise will get duplicate method error
 //    public int mul(int a,int b){
-//     return b/a;
+//     return a*(b/a);
 // }
 // public int div(int a,int b){
-//     return a*b;
+//     return b/(a*b);
 // }
     
 }
