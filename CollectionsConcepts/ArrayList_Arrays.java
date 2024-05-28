@@ -2,12 +2,15 @@ package CollectionsConcepts;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 class ArrayList_Arrays {
     public static void main(String[] args) {
 
         //creation
         String[] frnd = {"A","B","C"};
+        ArrayList <Integer>list = new ArrayList<>();
+        ArrayList <String>list1 = new ArrayList<String>();
         ArrayList<String>friendList1 = new ArrayList<>(Arrays.asList("Anurag","Atul","Viki","Suresh"));
         
         //get an element
@@ -20,6 +23,7 @@ class ArrayList_Arrays {
 
         // You can't add more elements in an array
         friendList1.add("Shivam");
+        friendList1.add(0, "Satyendra");
         System.out.println(friendList1);
 
 
@@ -36,6 +40,15 @@ class ArrayList_Arrays {
 
      //Print
      System.out.println(frnd);  // getting memory address
+     System.out.println(friendList1);
+
+     //loops
+     for(int i=0;i<friendList1.size();i++){
+        System.out.println(friendList1.get(i));
+     }
+
+     //sorting
+     Collections.sort(friendList1);
      System.out.println(friendList1);
 
     }
