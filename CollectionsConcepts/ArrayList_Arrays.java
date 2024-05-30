@@ -1,5 +1,3 @@
-package CollectionsConcepts;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -50,6 +48,9 @@ class ArrayList_Arrays {
      //sorting
      Collections.sort(friendList1);
      System.out.println(friendList1);
+
+     // clera
+     friendList1.clear();
 
     }
 
